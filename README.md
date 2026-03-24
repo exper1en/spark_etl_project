@@ -41,10 +41,10 @@
      cd C:\spark\spark-3.5.8-bin-hadoop3
      .\bin\spark-class.cmd org.apache.spark.deploy.master.Master
      ```
-   - Во втором – воркер, указав адрес мастера (обычно `spark://localhost:7077`):
+   - Во втором – воркер, указав адрес мастера, который вывелся в окне консоли после его запуска:
      ```bash
      cd C:\spark\spark-3.5.8-bin-hadoop3
-     .\bin\spark-class.cmd org.apache.spark.deploy.worker.Worker spark://localhost:7077
+     .\bin\spark-class.cmd org.apache.spark.deploy.worker.Worker spark://[ваш адрес]
      ```
 
 4. **Генерация тестовых данных**
